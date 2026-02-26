@@ -1,0 +1,62 @@
+# ─────────────────────────────────────────────
+# 🎵  YOUR RELEASE CONFIG — edit this file
+# ─────────────────────────────────────────────
+
+project:
+  artist_name: "Your Artist Name"
+  release_title: "Your EP / Album / Single Title"
+  release_type: "EP"           # EP | Album | Single
+  release_date: "2025-06-01"   # YYYY-MM-DD (upcoming or recent)
+
+  # One or two sentence "elevator pitch" for the project
+  description: >
+    A dream-pop / shoegaze EP blending lush reverb-heavy guitars with
+    introspective lyrics about late-night city walks. Think Mazzy Star
+    meets Japanese Breakfast.
+
+music:
+  genres:
+    - dream pop
+    - shoegaze
+    - indie rock
+  moods:
+    - melancholic
+    - ethereal
+    - introspective
+  bpm_range: "70–100"
+  key_instruments:
+    - guitar
+    - synth pads
+    - lo-fi drums
+  similar_artists:
+    - Mazzy Star
+    - Japanese Breakfast
+    - Beach House
+    - Slowdive
+  platforms:
+    spotify_url: ""
+    apple_music_url: ""
+    soundcloud_url: ""
+    bandcamp_url: ""
+    youtube_url: ""
+
+# ─────────────────────────────────────────────
+# Pipeline search settings
+# ─────────────────────────────────────────────
+pipeline:
+  max_results_per_category: 20   # how many leads to surface per category
+  min_quality_score: 3           # 1–5; leads below this are dropped
+  recency_cutoff_days: 180       # skip sources with no activity in N days
+  search_web: true               # enable live web search via Claude API
+  categories:
+    - playlists_curators
+    - online_communities
+    - youtube_streamers
+
+  # Extra keywords to bias searches (leave empty [] for auto)
+  extra_keywords: []
+
+output:
+  format: "json"          # json | csv | both
+  save_markdown: true     # also write a human-readable .md report
+  results_dir: "results"
