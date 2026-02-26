@@ -3,25 +3,25 @@
 # ─────────────────────────────────────────────
 
 project:
-  artist_name: "Your Artist Name"
-  release_title: "Your EP / Album / Single Title"
+  artist_name: "krummholz"
+  release_title: "nocere"
   release_type: "EP"           # EP | Album | Single
-  release_date: "2025-06-01"   # YYYY-MM-DD (upcoming or recent)
+  release_date: "2026-03-03"   # YYYY-MM-DD (upcoming or recent)
 
   # One or two sentence "elevator pitch" for the project
   description: >
-    A dream-pop / shoegaze EP blending lush reverb-heavy guitars with
-    introspective lyrics about late-night city walks. Think Mazzy Star
-    meets Japanese Breakfast.
+    {fill in}
 
 music:
   genres:
-    - dream pop
+    - grunge
     - shoegaze
-    - indie rock
+    - hyperpop
+    - pop
+    
   moods:
     - melancholic
-    - ethereal
+    - romantic
     - introspective
   bpm_range: "70–100"
   key_instruments:
